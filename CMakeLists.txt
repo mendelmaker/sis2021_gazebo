@@ -8,7 +8,7 @@ project(sis2021_gazebo)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  gazebo_msg
+  gazebo_msgs
   roscpp
   sensor_msgs
   std_msgs

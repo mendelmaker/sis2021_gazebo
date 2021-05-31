@@ -9,6 +9,7 @@ project(sis2021_gazebo)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   gazebo_msgs
+  gazebo_ros
   roscpp
   sensor_msgs
   std_msgs
@@ -192,6 +193,11 @@ include_directories(
 #   # myfile2
 #   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 # )
+
+# Install all the model files
+install(DIRECTORY models/
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/models)
+
 
 #############
 ## Testing ##

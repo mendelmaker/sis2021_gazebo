@@ -29,8 +29,8 @@ if dpkg --compare-versions 19.03 gt "$DOCKER_VER"; then
     fi
     DOCKER_OPTS="$DOCKER_OPTS --runtime=nvidia"
 else
-    #DOCKER_OPTS="$DOCKER_OPTS --gpus all"
-    echo "No GPU"
+    DOCKER_OPTS="$DOCKER_OPTS --gpus all"
+    echo "gpus all"
 fi
 
 # Prevent executing "docker run" when xauth failed.
@@ -39,33 +39,19 @@ if [ ! -f $XAUTH ]; then
     exit 1
 fi
 
-if [ ! -z "$1" ]; then
-    ROS_MASTER_URI=http://$1:11311
-    echo "ROS_MASTER $1"
-fi
-
-if [ ! -z "$2" ]; then
-    ROS_IP=$2
-    echo "ROS_IP $2"
-fi
-
 BASH_OPTION=bash
 
 docker run \
     -it \
     --rm \
-    -e DISPLAY \
+    -e DISPLAY=$DISPLAY \
     -e QT_X11_NO_MITSHM=1 \
     -e XAUTHORITY=$XAUTH \
-    -e ROS_MASTER_URI=$ROS_MASTER_URI \
-    -e ROS_IP=$ROS_IP \
+    -v "/home/$USER/sis2021_gazebo:/home/sis/low_cost_ws/src/pyrobot/robots/LoCoBot/sis2021_gazebo" \
     -v "$XAUTH:$XAUTH" \
     -v "/tmp/.X11-unix:/tmp/.X11-unix" \
     -v "/etc/localtime:/etc/localtime:ro" \
-    -v "/etc/ssh/ssh_config:/etc/ssh/ssh_config" \
-    -v "/dev:/dev" \
-    -v "/var/run/docker.sock:/var/run/docker.sock" \
-    --name locobot \
+    --name gazebo \
     --network host \
     --privileged \
     --security-opt seccomp=unconfined \

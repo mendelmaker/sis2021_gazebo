@@ -86,68 +86,38 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>112 518000000</sim_time>
-      <real_time>276 941233288</real_time>
-      <wall_time>1624273914 522121593</wall_time>
-      <iterations>86168</iterations>
-      <model name='003_cracker_box'>
-        <pose frame=''>0.999956 -3.1e-05 0.003285 -0.000913 -0.003733 -0.000795</pose>
-        <scale>1 1 1</scale>
-        <link name='body'>
-          <pose frame=''>0.999956 -3.1e-05 0.003285 -0.000913 -0.003733 -0.000795</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0.143286 0.005751 -0.003215 -0.054232 1.3588 0.001051</acceleration>
-          <wrench>0.143286 0.005751 -0.003215 0 -0 0</wrench>
-        </link>
-      </model>
+      <sim_time>169 23000000</sim_time>
+      <real_time>212 946321179</real_time>
+      <wall_time>1624276248 84414696</wall_time>
+      <iterations>56505</iterations>
       <model name='004_sugar_box'>
-        <pose frame=''>0.865898 -0.132903 -9.7e-05 -0.004096 -0.003965 -0.116836</pose>
+        <pose frame=''>0.416546 -0.175665 -0.000183 -0.008916 -0.000201 -0.221532</pose>
         <scale>1 1 1</scale>
         <link name='body'>
-          <pose frame=''>0.865898 -0.132903 -9.7e-05 -0.004096 -0.003965 -0.116836</pose>
-          <velocity>-0.000167 0.000142 -0.005817 -0.21158 0.010602 0.007361</velocity>
-          <acceleration>0.988491 0.465175 -0.131463 1.20052 -1.12185 1.36138</acceleration>
-          <wrench>0.988491 0.465175 -0.131463 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='005_tomato_soup_can'>
-        <pose frame=''>0.728095 -0.000117 -0.000166 0.000538 -0.001993 -0.000342</pose>
-        <scale>1 1 1</scale>
-        <link name='body'>
-          <pose frame=''>0.728095 -0.000117 -0.000166 0.000538 -0.001993 -0.000342</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0 -0 0 0 -0 0</acceleration>
-          <wrench>-0 -0 0 0 -0 0</wrench>
+          <pose frame=''>0.416546 -0.175665 -0.000183 -0.008916 -0.000201 -0.221532</pose>
+          <velocity>1.9e-05 -9e-06 -0.00151 -0.046746 0.070876 -0.002634</velocity>
+          <acceleration>-0.955534 -0.138475 -0.077404 -1.76425 1.51516 1.98572</acceleration>
+          <wrench>-0.955534 -0.138475 -0.077404 0 -0 0</wrench>
         </link>
       </model>
       <model name='006_mustard_bottle'>
-        <pose frame=''>0.885985 0.264053 0.003128 8.2e-05 0.000897 0.007544</pose>
+        <pose frame=''>0.524409 -0.020608 0.003128 8.1e-05 0.000897 -0.804457</pose>
         <scale>1 1 1</scale>
         <link name='body'>
-          <pose frame=''>0.885985 0.264053 0.003128 8.2e-05 0.000897 0.007544</pose>
+          <pose frame=''>0.524409 -0.020608 0.003128 8.1e-05 0.000897 -0.804457</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0.11171 -0.005172 0.002037 0.06736 1.42781 0.000157</acceleration>
-          <wrench>0.11171 -0.005172 0.002037 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='009_gelatin_box'>
-        <pose frame=''>0.755004 -0.163582 0.000458 -0.004004 -0.004913 0.013654</pose>
-        <scale>1 1 1</scale>
-        <link name='body'>
-          <pose frame=''>0.755004 -0.163582 0.000458 -0.004004 -0.004913 0.013654</pose>
-          <velocity>-1.8e-05 5.3e-05 -0.004586 -0.115622 -0.039377 5e-06</velocity>
-          <acceleration>-0 -0 0 6e-06 -1.8e-05 0.000246</acceleration>
-          <wrench>-0 -0 0 0 -0 0</wrench>
+          <acceleration>0.066881 -0.09767 0.00484 1.13001 0.954754 -0.003142</acceleration>
+          <wrench>0.066881 -0.09767 0.00484 0 -0 0</wrench>
         </link>
       </model>
       <model name='010_potted_meat_can'>
-        <pose frame=''>0.667452 0.3269 0.003104 -0.002928 -0.001827 -0.029728</pose>
+        <pose frame=''>0.473507 0.101826 0.003104 -0.002923 -0.001826 -1.33838</pose>
         <scale>1 1 1</scale>
         <link name='body'>
-          <pose frame=''>0.667452 0.3269 0.003104 -0.002928 -0.001827 -0.029728</pose>
+          <pose frame=''>0.473507 0.101826 0.003104 -0.002923 -0.001826 -1.33838</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0.90052 -1.5599 1.09911 -2.22364 0.443442 3.13211</acceleration>
-          <wrench>-0.90052 -1.5599 1.09911 0 -0 0</wrench>
+          <acceleration>-1.73181 0.457933 1.08015 2.35395 0.427415 0.04244</acceleration>
+          <wrench>-1.73181 0.457933 1.08015 0 -0 0</wrench>
         </link>
       </model>
       <model name='ground_plane'>
@@ -166,67 +136,11 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>-1.04564 -0.884795 2.08263 -0 0.811643 0.480188</pose>
+        <pose frame=''>-0.871384 -1.0282 2.16642 -0 0.811643 0.480188</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
-    <model name='003_cracker_box'>
-      <link name='body'>
-        <inertial>
-          <mass>1</mass>
-          <pose frame=''>-0.014854 -0.014205 0.102205 0 -0 0</pose>
-          <inertia>
-            <ixx>0.00582845</ixx>
-            <ixy>-1.2157e-06</ixy>
-            <ixz>3.71932e-05</ixz>
-            <iyy>0.00409288</iyy>
-            <iyz>1.32681e-05</iyz>
-            <izz>0.00243189</izz>
-          </inertia>
-        </inertial>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://003_cracker_box_textured/textured.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://003_cracker_box_textured/textured.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0.8</mu>
-                <mu2>0.8</mu2>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <contact>
-              <ode>
-                <kp>1e+06</kp>
-                <kd>1</kd>
-                <max_vel>0</max_vel>
-              </ode>
-            </contact>
-            <bounce/>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>1 0 0 0 -0 0</pose>
-    </model>
     <model name='004_sugar_box'>
       <link name='body'>
         <inertial>
@@ -283,62 +197,6 @@
       </link>
       <pose frame=''>2 0 0 0 -0 0</pose>
     </model>
-    <model name='005_tomato_soup_can'>
-      <link name='body'>
-        <inertial>
-          <mass>1</mass>
-          <pose frame=''>-0.009342 0.084224 0.050026 0 -0 0</pose>
-          <inertia>
-            <ixx>0.00100265</ixx>
-            <ixy>-4.1886e-07</ixy>
-            <ixz>-2.32077e-06</ixz>
-            <iyy>0.00101052</iyy>
-            <iyz>1.01533e-06</iyz>
-            <izz>0.000549676</izz>
-          </inertia>
-        </inertial>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://005_tomato_soup_can_textured/textured.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://005_tomato_soup_can_textured/textured.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0.8</mu>
-                <mu2>0.8</mu2>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <contact>
-              <ode>
-                <kp>1e+06</kp>
-                <kd>1</kd>
-                <max_vel>0</max_vel>
-              </ode>
-            </contact>
-            <bounce/>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>3 0 0 0 -0 0</pose>
-    </model>
     <model name='006_mustard_bottle'>
       <link name='body'>
         <inertial>
@@ -394,62 +252,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>1 1 0 0 -0 0</pose>
-    </model>
-    <model name='009_gelatin_box'>
-      <link name='body'>
-        <inertial>
-          <mass>1</mass>
-          <pose frame=''>-0.022675 -0.00786 0.013878 0 -0 0</pose>
-          <inertia>
-            <ixx>0.00067629</ixx>
-            <ixy>4.39942e-05</ixy>
-            <ixz>1.35154e-06</ixz>
-            <iyy>0.000496889</iyy>
-            <iyz>-2.59522e-06</iyz>
-            <izz>0.0010452</izz>
-          </inertia>
-        </inertial>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://009_gelatin_box_textured/textured.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://009_gelatin_box_textured/textured.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0.8</mu>
-                <mu2>0.8</mu2>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <contact>
-              <ode>
-                <kp>1e+06</kp>
-                <kd>1</kd>
-                <max_vel>0</max_vel>
-              </ode>
-            </contact>
-            <bounce/>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>2 2 0 0 -0 0</pose>
     </model>
     <model name='010_potted_meat_can'>
       <link name='body'>

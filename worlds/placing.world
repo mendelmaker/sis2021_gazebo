@@ -165,7 +165,7 @@
         <pose frame=''>6 3 1 1.57 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='main'>
-          <pose frame=''>6 3 1 1.57 -0 0</pose>
+          <pose frame=''>6 1 1 1.57 -0 1.57</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>

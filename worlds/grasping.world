@@ -84,6 +84,64 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
+
+    <model name='004_sugar_box_textured'>
+      <pose frame=''>0.867821 -0.200787 0 0 -0 0</pose>
+      <link name='body'>
+        <inertial>
+          <mass>1</mass>
+          <pose frame=''>-0.007698 -0.017078 0.086024 0 -0 0</pose>
+          <inertia>
+            <ixx>0.00315303</ixx>
+            <ixy>-1.84651e-05</ixy>
+            <ixz>9.37398e-05</ixz>
+            <iyy>0.00264458</iyy>
+            <iyz>-3.19192e-05</iyz>
+            <izz>0.000793799</izz>
+          </inertia>
+        </inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://004_sugar_box_textured/textured.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://004_sugar_box_textured/textured.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.8</mu>
+                <mu2>0.8</mu2>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>1</kd>
+                <max_vel>0</max_vel>
+              </ode>
+            </contact>
+            <bounce/>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
     <model name='coke_can'>
       <link name='link'>
         <inertial>
@@ -357,6 +415,18 @@
           <wrench>-0.058694 0.001906 0.123765 0 -0 0</wrench>
         </link>
       </model>
+      
+      <model name='004_sugar_box_textured'>
+        <pose frame=''>0.867753 -0.199794 -0.000106 -0.002766 -0.000914 -0.070785</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose frame=''>0.867753 -0.199794 -0.000106 -0.002766 -0.000914 -0.070785</pose>
+          <velocity>1e-06 -1e-05 -0.002721 -0.093768 -0.01295 3e-06</velocity>
+          <acceleration>-0.443892 0.044878 0.000509 -0.579556 1.12015 -0.064567</acceleration>
+          <wrench>-0.443892 0.044878 0.000509 0 -0 0</wrench>
+        </link>
+      </model>
+
       <light name='sun'>
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>

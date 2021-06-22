@@ -347,25 +347,65 @@
       <pose frame=''>0.280797 3.1484 -0 0 -1e-06 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>971 745000000</sim_time>
-      <real_time>150 70055303</real_time>
-      <wall_time>1622447024 568522906</wall_time>
-      <iterations>149330</iterations>
+      <sim_time>1705 233000000</sim_time>
+      <real_time>735 57835567</real_time>
+      <wall_time>1624344284 760926967</wall_time>
+      <iterations>733488</iterations>
+      <model name='Apriltag36_11_00000'>
+        <pose frame=''>0 4 1 1.57 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='main'>
+          <pose frame=''>0 4 1 1.57 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='Apriltag36_11_00001'>
+        <pose frame=''>2 8.5 1.5 1.57 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='main'>
+          <pose frame=''>2 8.5 1.5 1.57 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='Apriltag36_11_00002'>
+        <pose frame=''>0 8.5 1.5 1.57 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='main'>
+          <pose frame=''>0 8.5 1.5 1.57 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='Apriltag36_11_00003'>
+        <pose frame=''>-2 8.5 1.5 1.57 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='main'>
+          <pose frame=''>-2 8.5 1.5 1.57 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='Construction Cone'>
-        <pose frame=''>0.5 4.5 -5e-06 -4e-06 1e-06 0</pose>
+        <pose frame=''>0.5 4.5 -0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.5 4.5 -5e-06 -4e-06 1e-06 0</pose>
+          <pose frame=''>0.5 4.5 -0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -9.8 0 -0 0</wrench>
+          <acceleration>0 -0 -0.008512 -2.58585 1.13682 3.14159</acceleration>
+          <wrench>0 -0 -0.008512 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Cone_clone'>
-        <pose frame=''>-0.5 4.5 -8e-06 1e-06 -0 0</pose>
+        <pose frame=''>-0.5 4.5 -6e-06 -4e-06 0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-0.5 4.5 -8e-06 1e-06 -0 0</pose>
+          <pose frame=''>-0.5 4.5 -6e-06 -4e-06 0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
@@ -382,23 +422,13 @@
         </link>
       </model>
       <model name='Construction Cone_clone_1'>
-        <pose frame=''>-0.502991 3.49974 -4e-06 4e-06 -0 0</pose>
+        <pose frame=''>-0.502991 3.49974 -1e-05 -1e-06 0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-0.502991 3.49974 -4e-06 4e-06 -0 0</pose>
+          <pose frame=''>-0.502991 3.49974 -1e-05 -1e-06 0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='beer'>
-        <pose frame=''>-1e-06 -3e-06 -2e-06 1e-06 -0 -4.4e-05</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-1e-06 -3e-06 0.114998 1e-06 -0 -4.4e-05</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -3.822 0 -0 0</wrench>
         </link>
       </model>
       <model name='ground_plane'>
@@ -447,10 +477,106 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>20.441 -15.0506 8.36891 0 0.275643 2.35619</pose>
+        <pose frame=''>6.64711 -5.63075 7.14266 0 0.559709 2.07664</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <model name='Apriltag36_11_00001'>
+      <link name='main'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='main_Visual'>
+          <geometry>
+            <box>
+              <size>1 1 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://Apriltag36_11_00001/materials/scripts</uri>
+              <uri>model://Apriltag36_11_00001/materials/textures</uri>
+              <name>Apriltag36_11_00001</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose frame=''>2.38135 6.36781 0 0 -0 0</pose>
+    </model>
+    <model name='Apriltag36_11_00002'>
+      <link name='main'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='main_Visual'>
+          <geometry>
+            <box>
+              <size>1 1 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://Apriltag36_11_00002/materials/scripts</uri>
+              <uri>model://Apriltag36_11_00002/materials/textures</uri>
+              <name>Apriltag36_11_00002</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose frame=''>-0.38529 9.47211 0 0 -0 0</pose>
+    </model>
+    <model name='Apriltag36_11_00003'>
+      <link name='main'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='main_Visual'>
+          <geometry>
+            <box>
+              <size>1 1 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://Apriltag36_11_00003/materials/scripts</uri>
+              <uri>model://Apriltag36_11_00003/materials/textures</uri>
+              <name>Apriltag36_11_00003</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose frame=''>-2.22106 9.32453 0 0 -0 0</pose>
+    </model>
+    <model name='Apriltag36_11_00000'>
+      <link name='main'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='main_Visual'>
+          <geometry>
+            <box>
+              <size>1 1 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://Apriltag36_11_00000/materials/scripts</uri>
+              <uri>model://Apriltag36_11_00000/materials/textures</uri>
+              <name>Apriltag36_11_00000</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose frame=''>-0.028017 0.013978 0 0 -0 0</pose>
+    </model>
   </world>
 </sdf>

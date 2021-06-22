@@ -5,7 +5,7 @@
     <link name="body">
       <inertial>
         <!-- Volume:  6.1204089400e-04 -->
-        <mass> 1.0 </mass>
+        <mass> 0.01 </mass>
         <!-- Center of mass: -1.5054350000e-02 -2.3109380000e-02  7.5042310000e-02 -->
         <pose> -1.5054350000e-02 -2.3109380000e-02  7.5042310000e-02 0 0 0 </pose>
         <!-- Inertia matrix -->

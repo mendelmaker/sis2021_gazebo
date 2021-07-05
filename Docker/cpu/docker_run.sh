@@ -9,7 +9,7 @@ docker run \
     -v "/tmp/.X11-unix:/tmp/.X11-unix" \
     -v "/home/$USER/sis2021_gazebo:/home/sis/gazebo" \
     --user sis \
-    --name locobot \s
+    --name gazebo \
     --network host \
     --privileged \
     argsis/gazebo \
